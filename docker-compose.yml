@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
         db:
-          image: mongo
+          image: mongo:4.4.19-focal
           container_name: db
           restart: always
           environment:
